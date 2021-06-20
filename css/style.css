@@ -23,6 +23,12 @@ input:focus, button:focus, a:focus{
   margin-right: 0px !important;
 }
 @media (max-width: 360px){
+  .news-content-index .ncit span{
+    font-size: 16px !important;
+  }
+  .news-content-index .news-content{
+    width: 100% !important;
+  }
   header{
     height: 70px !important;
   }
@@ -301,7 +307,6 @@ header{
     color: white;
   }
   .hc-1, .hr-1{
-    margin: auto;
     color: white;
   }
   .hr-1 ul{
@@ -562,4 +567,68 @@ header{
 .footer .ft4 span{
   color: #f6d55c;
   font-size: 17px;
+}
+.news-title-index{
+  margin: 30px 0 30px 0;
+}
+.news-title-index span{
+  background-color: #283d3e;
+  padding: 10px 60px;
+  color: white;
+  font-weight: bold;
+}
+.news-content-index .news-content{
+  width: 80%;
+  margin: auto;
+}
+.news-content-index .ncit, .news-content-index .nci1, .news-content-index .nci2{
+  text-align: center;
+  margin: 20px 0;
+}
+.news-content-index .ncit span{
+  color: #283d3e;
+  font-size: 30px;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-align: center;
+}
+.news-content-index .nci1, .news-content-index .nci2{
+  color: #283d3e;
+}
+.news-content-index .ncimg2{
+  width: 70%;
+  margin: auto;
+}
+.news-content-index .ncimg2 img, .news-content-index .ncimg1 img{
+  width: 100%;
+}
+.news-other{
+  margin: 50px 0;
+}
+.news-other .tittle{
+  margin: 30px 0 50px 0;
+}
+.news-other .tittle span{
+ background-color: #283d3e;
+ color: white;
+ padding: 8px 60px;
+ font-weight: bold;
+}
+.news-other .content .noc1{
+  box-shadow: 4px 4px 4px #938680;
+  margin: 10px 10px;
+}
+.news-other .content .noc1 img{
+  width: 100%;
+}
+.news-other .content .noc1 .noc11{
+  padding: 5px;
+}
+.news-other .content .noc1 .title{
+  color: #283d3e;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.news-other .content .noc1 a:hover{
+  text-decoration: none;
 }
