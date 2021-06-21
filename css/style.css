@@ -64,6 +64,12 @@ input:focus, button:focus, a:focus{
   }
 }
 @media (min-width: 360.1px) and (max-width: 450px){
+  .news-content-index .ncit span{
+    font-size: 18px !important;
+  }
+  .news-content-index .news-content{
+    width: 100% !important;
+  }
   header{
     height: 70px !important;
   }
@@ -99,6 +105,12 @@ input:focus, button:focus, a:focus{
   }
 }
 @media (min-width: 450.1px) and (max-width: 575px){
+  .news-content-index .ncit span{
+    font-size: 20px !important;
+  }
+  .news-content-index .news-content{
+    width: 100% !important;
+  }
   .footer .ft1 ul li a, .footer .ft2 ul li a{
     font-size: 15px !important;
   }
@@ -137,6 +149,12 @@ input:focus, button:focus, a:focus{
   }
 }
 @media (min-width: 576px) and (max-width: 767px){
+  .news-content-index .ncit span{
+    font-size: 20px !important;
+  }
+  .news-content-index .news-content{
+    width: 100% !important;
+  }
   .footer .ft1 ul li a, .footer .ft2 ul li a{
     font-size: 15px !important;
   }
@@ -175,6 +193,9 @@ input:focus, button:focus, a:focus{
   }
 }
 @media (min-width: 768px) and (max-width: 1023px){
+  .news-other .content .noc1 .title{
+    font-size: 13px !important;
+  }
   .footer .ft3 img{
     width: 70% !important;
   }
@@ -308,6 +329,7 @@ header{
   }
   .hc-1, .hr-1{
     color: white;
+    margin: auto;
   }
   .hr-1 ul{
     display: inline-flex;
