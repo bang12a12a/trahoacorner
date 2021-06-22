@@ -295,94 +295,94 @@ input:focus, button:focus, a:focus{
 
 
 header{
-    background-color: #283d3e;
-    color: white;
-    height: 100px;
-    line-height: 40px;
-  }
-  ul{
-    padding:0;
-    margin: 0;
-  }
-  header .container{
-    padding: 10px 0;
-  }
-  .font-size-13{
-    font-size: 15px; 
-  }
-  .center{
-    text-align: center;
-  }
-  .hl-1{
-    font-size: 25px;
-  }
-  .hl-1 img{
-    width: 75%;
-    text-align: center;
-  }
-  .hc-1 .input-group-text{
-    background-color: #3caea4;
-    border: 2px solid #3caea4;
-  }
-  .hc-1 i{
-    color: white;
-  }
-  .hc-1, .hr-1{
-    color: white;
-    margin: auto;
-  }
-  .hr-1 ul{
-    display: inline-flex;
-    list-style-type: none;
-  }
-  .hr-1 ul a:hover{
-    text-decoration: none;
-  }
-  .hr-1 ul a i{
-    color: white;
-  }
-  .hr-1 ul li span{
-    color: #c7d8e6;
-  }
-  .hr-1 ul li{
-    padding: 0 8px;
-    text-align: center;
-  }
-  .hr-1 ul li i{
-    font-size: 20px;
-    position: relative;
-    top: 12px;
-    border: 1px solid white;
-    padding: 8px;
-    border-radius: 50%;
-  }
-  .hr-1 .hr-2s{
-    font-size: 14px;
-  }
-  .menu{
-    background-color: #356060;
-    color: white;
-  }
-  .menu a,   .menu i{
-    color: white;
-    font-weight: bold;
-  }
-  .menu i{
-    font-size: 30px;
-  }
-  .menu ul li{
-    padding: 0 20px 0 0;
-  }
-  .menu ul li{
-    padding: 0 20px 0 20px;
-  }
-  .menu ul li:hover{
-    background-color: white;
-  }
-  .menu ul li:hover a{
-    color: #356060;
-  }
-  .sheetnew .owl-stage-outer .owl-item{
+  background-color: #283d3e;
+  color: white;
+  height: 100px;
+  line-height: 40px;
+}
+ul{
+  padding:0;
+  margin: 0;
+}
+header .container{
+  padding: 10px 0;
+}
+.font-size-13{
+  font-size: 15px; 
+}
+.center{
+  text-align: center;
+}
+.hl-1{
+  font-size: 25px;
+}
+.hl-1 img{
+  width: 75%;
+  text-align: center;
+}
+.hc-1 .input-group-text{
+  background-color: #3caea4;
+  border: 2px solid #3caea4;
+}
+.hc-1 i{
+  color: white;
+}
+.hc-1, .hr-1{
+  color: white;
+  margin: auto;
+}
+.hr-1 ul{
+  display: inline-flex;
+  list-style-type: none;
+}
+.hr-1 ul a:hover{
+  text-decoration: none;
+}
+.hr-1 ul a i{
+  color: white;
+}
+.hr-1 ul li span{
+  color: #c7d8e6;
+}
+.hr-1 ul li{
+  padding: 0 8px;
+  text-align: center;
+}
+.hr-1 ul li i{
+  font-size: 20px;
+  position: relative;
+  top: 12px;
+  border: 1px solid white;
+  padding: 8px;
+  border-radius: 50%;
+}
+.hr-1 .hr-2s{
+  font-size: 14px;
+}
+.menu{
+  background-color: #356060;
+  color: white;
+}
+.menu a,   .menu i{
+  color: white;
+  font-weight: bold;
+}
+.menu i{
+  font-size: 30px;
+}
+.menu ul li{
+  padding: 0 20px 0 0;
+}
+.menu ul li{
+  padding: 0 20px 0 20px;
+}
+.menu ul li:hover{
+  background-color: white;
+}
+.menu ul li:hover a{
+  color: #356060;
+}
+.sheetnew .owl-stage-outer .owl-item{
   width: 345px;
 }
 .sheetnew .blog-entry .bslc1{
@@ -483,7 +483,7 @@ header{
   margin: 30px 0;
 }
 .bestsell .bslt1{
-  
+
 }
 .bestsell .bslt1 span{
   padding: 5px 50px;
@@ -550,7 +550,7 @@ header{
 }
 .news-index .nir1{
   margin-bottom: 30px;
-    box-shadow: 4px 4px 4px #938680;
+  box-shadow: 4px 4px 4px #938680;
 }
 .news-index .nir1 .nir11{
   width: 100px;
@@ -655,49 +655,117 @@ header{
   text-decoration: none;
 }
 .preview-pic {
-    -webkit-box-flex: 1;
-    -webkit-flex-grow: 1;
-    -ms-flex-positive: 1;
-    flex-grow: 1;
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
 }
 
 .preview-thumbnail.nav-tabs {
-    border: none;
-    margin-top: 15px;
-    display: contents;
+  border: none;
+  margin-top: 15px;
+  display: contents;
 }
 
-    .preview-thumbnail.nav-tabs li {
-        width: 18%;
-        margin-right: 2.5%;
-        margin-bottom: 17px;
-    }
+.preview-thumbnail.nav-tabs li {
+  width: 18%;
+  margin-right: 2.5%;
+  margin-bottom: 17px;
+}
 
-        .preview-thumbnail.nav-tabs li img {
-            width: 100px;
-            display: block;
-            border: 1px solid #20639b;
-        }
+.preview-thumbnail.nav-tabs li img {
+  width: 100px;
+  display: block;
+}
 
-        .preview-thumbnail.nav-tabs li a {
-            padding: 0;
-            margin: 0;
-            cursor: pointer;
-        }
+.preview-thumbnail.nav-tabs li a {
+  padding: 0;
+  margin: 0;
+  cursor: pointer;
+}
 
-        .preview-thumbnail.nav-tabs li:last-of-type {
-            margin-right: 0;
-        }
+.preview-thumbnail.nav-tabs li:last-of-type {
+  margin-right: 0;
+}
 
 .tab-content {
-    overflow: hidden;
+  overflow: hidden;
 }
 
-    .tab-content img {
-        width: 96%;
-        -webkit-animation-name: opacity;
-        animation-name: opacity;
-        -webkit-animation-duration: .3s;
-        animation-duration: .3s;
-        border: 1px solid #20639b;
-    }
+.tab-content img {
+  width: 96%;
+  -webkit-animation-name: opacity;
+  animation-name: opacity;
+  -webkit-animation-duration: .3s;
+  animation-duration: .3s;
+  border: 1px solid #20639b;
+}
+.detailpro{
+  margin: 30px 0px;
+}
+.details .product-title{
+  font-size: 28px; 
+  font-weight: bold;
+  color: #283d3e;
+  text-transform: uppercase;
+}
+.details .dsr1, .details .dsr2, .details .dsr3, .details .dsr4 {
+  margin: 15px 0;
+}
+.details .dsr1 span{
+  color: #283d3e;
+  font-size: 22px;
+}
+.details .dsr2 .form-check-label{
+  cursor: pointer;
+  color: #283d3e;
+  font-weight: bold;
+}
+.details .dsr3{
+  width: 105px;
+}.details .dsr3 input{
+  color: #283d3e;
+  font-weight: bold;
+}
+.details .dsr3 button{
+  background-color: #283d3e;
+  font-weight: bold;
+  border: 1px solid #283d3e;
+  padding: 6px 13px;
+  color: white;
+  border-radius: 4px;
+}
+.details .dsr4{
+  font-size: 22px;
+}
+.details .dsr4 .dsr41{
+  text-decoration: line-through;
+}
+.details .dsr4 .dsr42{
+  color: red;
+  margin-left: 20px;
+  font-weight: bold;
+}
+.details .dsr5, .details .dsr6{
+  margin: 20px 0px;
+}
+.details .dsr5 a{
+  background-color: #f6d55c;
+  color: #283d3e;
+  padding: 10px 40px;
+  font-weight: bold;
+  border-radius: 6px;
+}
+.details .dsr5 a:hover{
+  text-decoration: none;
+}
+.details .dsr5 a img{
+  width: 20px;
+  position: relative;
+  top: -2px;
+}
+.details .dsr5 a{
+  background-color: #283d3e;
+  color: white;
+  padding: 10px 30px;
+}
