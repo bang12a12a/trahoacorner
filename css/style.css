@@ -22,7 +22,19 @@ input:focus, button:focus, a:focus{
   margin-left: 0px !important;
   margin-right: 0px !important;
 }
-@media (max-width: 360px){
+@media only screen and (max-width: 360px){
+  .details .dsr4 .dsr41, .details .dsr4 .dsr42{
+    font-size: 18px;
+  }
+  .preview-thumbnail.nav-tabs li img{
+    width: 45px !important;
+  }
+  .details .product-title{
+    font-size: 20px !important;
+  }
+  .details .dsr1 span{
+    font-size: 18px !important;
+  }
   .news-content-index .ncit span{
     font-size: 16px !important;
   }
@@ -63,7 +75,13 @@ input:focus, button:focus, a:focus{
     font-size: 13px !important;
   }
 }
-@media (min-width: 360.1px) and (max-width: 450px){
+@media only screen and (min-width: 360.1px) and (max-width: 450px){
+  .details .product-title{
+    font-size: 20px !important;
+  }
+  .preview-thumbnail.nav-tabs li img{
+    width: 53px !important;
+  }
   .news-content-index .ncit span{
     font-size: 18px !important;
   }
@@ -104,7 +122,7 @@ input:focus, button:focus, a:focus{
     font-size: 13px !important;
   }
 }
-@media (min-width: 450.1px) and (max-width: 575px){
+@media only screen and (min-width: 450.1px) and (max-width: 575px){
   .news-content-index .ncit span{
     font-size: 20px !important;
   }
@@ -148,7 +166,7 @@ input:focus, button:focus, a:focus{
     margin: 10px 10px 40px 10px !important;
   }
 }
-@media (min-width: 576px) and (max-width: 767px){
+@media only screen and (min-width: 576px) and (max-width: 767px){
   .news-content-index .ncit span{
     font-size: 20px !important;
   }
@@ -192,7 +210,7 @@ input:focus, button:focus, a:focus{
     margin: 10px 10px 40px 10px !important;
   }
 }
-@media (min-width: 768px) and (max-width: 1023px){
+@media only screen and (min-width: 768px) and (max-width: 1023px){
   .news-other .content .noc1 .title{
     font-size: 13px !important;
   }
@@ -236,7 +254,7 @@ input:focus, button:focus, a:focus{
     margin: 10px 10px 40px 10px !important;
   }
 }
-@media (min-width: 1024px) and (max-width: 1199px){
+@media only screen and (min-width: 1024px) and (max-width: 1199px){
   .footer .ft3 img{
     width: 70% !important;
   }
@@ -272,7 +290,7 @@ input:focus, button:focus, a:focus{
     height: 230px !important;
   }
 }
-@media (min-width: 1200px) and (max-width: 1300px){
+@media only screen and (min-width: 1200px) and (max-width: 1300px){
   .news-index .ni1 img{
     height: 235px !important;
   }
@@ -283,7 +301,7 @@ input:focus, button:focus, a:focus{
     padding: 10px 10px 10px 20px !important;
   }
 }
-@media (min-width: 1700px){
+@media only screen and (min-width: 1700px){
   .container{
     max-width: 1400px !important;
   }
@@ -746,7 +764,7 @@ header .container{
   margin-left: 20px;
   font-weight: bold;
 }
-.details .dsr5, .details .dsr6{
+.details .dsr5{
   margin: 20px 0px;
 }
 .details .dsr5 a{
@@ -764,8 +782,88 @@ header .container{
   position: relative;
   top: -2px;
 }
-.details .dsr5 a{
+.details .dsr6{
+  margin: 40px 0px;
+}
+.details .dsr6 a{
   background-color: #283d3e;
   color: white;
-  padding: 10px 30px;
+  padding: 10px 50px;
+  border-radius: 5px;
+}
+.details .dsr6 a:hover{
+  text-decoration: none;
+}
+.info-prod .title{
+  margin: 30px 0px;
+}
+.info-prod .title span{
+  color: white;
+  background-color: #283d3e;
+  padding: 5px 30px;
+
+}
+.info-prod  .content .content1{
+  margin: 30px 0px;
+}
+.cart .cl{
+  padding: 20px 10px 80px 10px;
+  background-color: #ededed;
+
+}
+.cart .cl .clt span{
+  font-size: 22px;
+  color: #283d3e;
+  font-weight: bold;
+}
+.cart .cl .cl1 table tr td{
+  padding: 3px 5px;
+}
+.cart .cl .bold{
+  font-weight: bold;
+}
+.cart .cl .cl1 table tr a, .cart .cl .cl2, .cart .cl .cl3{
+  color: #283d3e;
+}
+.cart .cl .cl1 table tr a:hover{
+  color: #283d3e;
+  text-decoration: none;
+}
+.cart .cl .cl2 .cl21, .cart .cl .cl4 .cl41{
+  float: left;
+}
+.cart .cl .cl2 .cl22, .cart .cl .cl4 .cl42{
+  float: right;
+}
+.cart .cl .cl2, .cart .cl .cl4{
+  clear: both;
+  font-size: 22px;
+}
+.cart .cl .cl4 .ctt{
+  background-color: #283d3e;
+  color: #e3c658;
+  padding: 3px 25px;
+  border-radius: 5px;
+}
+.cart .cr{
+  padding: 10px 20px 30px 20px;
+}
+.cart .cr .cr1{
+  text-align: right;
+  color: #283d3e;
+}
+.cart .cr .cr1 .cr11 span{
+  color: #283d3e;
+}
+.cart .cr .cr1 .cr11 a{
+  color: #283d3e;
+  font-weight: bold;
+}
+.cart .cr .cr1 .cr11 a:hover{
+  text-decoration: none;
+}
+.cart .cr .cr2 span, .cart .cr .cr4 span{
+  font-weight: bold;
+  font-size: 20px;
+  color: #283d3e;
 }
